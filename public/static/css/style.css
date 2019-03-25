@@ -1,0 +1,337 @@
+body{
+	margin:0;
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+}
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration:none;
+	outline:none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+p{
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover,body a:focus{
+	text-decoration:none;
+	outline: none;
+}
+/*-- banner --*/
+.w3ls-banner{
+	background:url(../img/Tarbar.jpeg) no-repeat center 0px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	position: relative;
+}
+.w3lsbanner-info {
+    background: url(../img/overlay.png)repeat;
+}
+/*-- header --*/
+.header {
+    background: rgba(34, 41, 51, 0.51);
+    padding: 3em 0;
+}
+.header-mdl.agileits-logo {
+    text-align: center;
+}
+.agileits-logo h1 {
+    font-size: 2em;
+    display: inline-block;
+	font-family: 'Quintessential', cursive;
+}
+.agileits-logo h1 a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+	border: 10px inset #03d2be;
+    padding: .5em 0.8em;
+}
+/*-- top-nav --*/
+.header-nav ul.nav.navbar-nav {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+}
+.navbar-default {
+    background: none;
+    border: none;
+	margin: 0;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #99abd5;
+    background: none;
+}
+.navbar-nav > li {
+	display: inline-block;
+	float:none;
+    margin: 0 2em;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0;
+    position: relative;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
+    color: #03d2be;
+}
+.navbar-default .navbar-nav li  a:hover:before,.navbar-default .navbar-nav li a.active:before{
+	width: 100%;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background: none;
+    color: #03d2be;
+}
+/*-- //top-nav --*/
+
+/*-- //header --*/
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+/*-- banner-text --*/
+.banner-text.agileinfo {
+    padding: 10em 0;
+    text-align: center;
+	background: rgba(34, 41, 51, 0.2);
+	position:relative;
+}
+.banner-text h2 {
+    font-size: 4em;
+    color: #fff;
+    line-height: 1.5em;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: .5em 1em;
+	font-family: 'Quintessential', cursive;
+}
+/*-- //banner-text --*/
+.services,.welcome,.group-information,.team,.wthree-sub,.products,.contact,.stats,.about,.codes{
+	padding:5em 0;
+}
+.services-grids,.contact-grids,.welcome-grid,.new-agileinfo,.w3ls_gallery_grids{
+    margin-top: 4em;
+}
+
+/*-- search --*/
+.wthree-sub {
+    background:url(../img/searchBack.jpg) no-repeat center 0px fixed;
+    background-size: cover;
+	text-align: center;
+}
+.wthree-sub h3.agileits-title {
+    color: #fff;
+}
+h3.agileits-title {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+h3.agileits-title span {
+    border-left: 1px solid #03d2be;
+    padding-left: .6em;
+    margin-left: .5em;
+    line-height: 0.9em;
+    display: inline-block;
+    font-weight: 300;
+    font-size: .9em;
+}
+.subscribe form {
+    width: 53%;
+    margin: 7em auto 2em;
+}
+.subscribe input[type="text"] {
+    width: 77%;
+    padding: 1em;
+    font-size: 1em;
+	float: left;
+    color: #fff;
+    outline: none;
+    border: 1px solid #ddd;
+    border-right: none;
+    background: none;
+    -webkit-appearance: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+	-webkit-border-radius: 50px 0 0 50px;
+	-moz-border-radius: 50px 0 0 50px;
+	border-radius: 50px 0 0 50px;
+}
+.subscribe input[type="submit"] {
+    float: left;
+    color: #fff;
+    font-size: 1em;
+    outline: none;
+    padding: 1em 2.5em;
+    border: 1px solid #03d2be;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    -webkit-appearance: none;
+    background: #03d2be;
+	-webkit-border-radius: 0 50px 50px 0;
+	-moz-border-radius: 0 50px 50px 0;
+	border-radius: 0 50px 50px 0;
+}
+.subscribe form:hover input[type="text"]{
+    border-color: #03d2be;
+}
+.subscribe p{
+    width: 45%;
+    margin: 0.5em auto 0;
+	color: #fff;
+}
+.subscribe p a {
+    color: #03d2be;
+}
+.subscribe p a:hover{
+    color: #fff;
+}
+/*-- //search --*/
+
+/*-- footer --*/
+.footer {
+    background: #232323;
+    padding: 4em 0;
+}
+.footer h3 {
+    font-size: 2.2em;
+    color: #03d2be;
+    margin-bottom: 1em;
+    font-weight: 400;
+    font-family: 'Quintessential', cursive;
+}
+.footer-agiletop ul {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #464646;
+    padding-bottom: 2em;
+}
+.footer-agiletop ul li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+}
+.footer-agiletop ul li a{
+    color: #fff;
+}
+.footer-agiletop ul li a:hover{
+    color: #03d2be;
+}
+.footer-agiletop ul li  i.fa,.footer-wthreegrid li a i.fa  {
+    margin-right: 6px;
+}
+.footer-wthreegridimg {
+    padding: 0;
+}
+.footer-wthreegrid li {
+    display: block;
+    margin-top: 1em;
+}
+.footer-wthreegrid li a {
+    font-size: 1em;
+    color: #fff;
+    display: inline-block;
+	text-decoration: none;
+	font-weight: 300;
+	outline: none;
+}
+.footer-wthreegrid li a:hover {
+    margin-left: 1em;
+    color: #03d2be;
+}
+.footer-wthreegrid.footer-tags li {
+    display: inline-block;
+}
+.footer-wthreegrid.footer-tags li a {
+    padding: .5em 1.3em;
+    margin-right: 12px;
+    border: 1px solid;
+}
+.footer-wthreegrid.footer-tags li a:hover {
+    margin-left: 0;
+    background-color: transparent;
+    color: #03d2be;
+}
+.footer-wthreegrid.footer-tags {
+    padding-left: 0;
+}
+.footer-wthreegrid p {
+    color: #fff;
+    font-weight: 300;
+}
+.copy-right {
+    padding: 2em 0;
+    background: #1b1b1b;
+}
+.copy-right p {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.copy-right p a{
+    color: #03d2be;
+	text-decoration:none;
+}
+.copy-right p a:hover{
+    color: #fff;
+}
+
+#toTopHover {
+	width: 32px;
+	height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //slider-up-arrow --*/
+
+.news-left {
+    float: none;
+    width: 100%;
+}
+.list-inline> li {
+    margin: 1em 0;
+    float: left;
+    width: 25%;
+}
+.news-w3text {
+    width: 100%;
+    float: none;
+}
+.list-inline> li a img {
+    width: 93%;
+}
+.news-w3text h4 {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+.news-w3text p {
+    letter-spacing: 0;
+    font-size: .85em;
+}
+.news-right {
+    width: 100%;
+}
+
+.news {
+    background: #f7ecb5;
+}
